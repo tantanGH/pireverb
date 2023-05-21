@@ -2,7 +2,7 @@
 #include <string.h>
 #include <doslib.h>
 #include <iocslib.h>
-#include "ras68k.h"
+#include "ras68k_pilib.h"
 
 //
 //  pilib.x keep check
@@ -71,9 +71,9 @@ int32_t ras68k_pilib_init_midi() {
 }
 
 //
-//  set ADPCM/PCM filter ($0002)
+//  set filter mode ($0002)
 //
-int32_t ras68k_pilib_set_pcm_filter(int16_t filter_enabled) {
+int32_t ras68k_pilib_set_filter_mode(int16_t filter_enabled) {
 
 	register uint32_t reg_d0 asm ("d0") = 0x0002;
 	register uint32_t reg_d1 asm ("d1") = filter_enabled;     // 0:off 1:on

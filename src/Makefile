@@ -37,13 +37,13 @@ CFLAGS = $(COMMON_FLAGS) -Wno-builtin-declaration-mismatch -fcall-used-d2 -fcall
     -fexec-charset=cp932 -fverbose-asm -fno-defer-pop
 
 # *.c ソースファイル
-C_SRCS = ras68k.c main.c
+C_SRCS = ras68k_pilib.c main.c
 
 # *.s ソースファイル
 ASM_SRCS =
 
 # *.h source files
-HEADER_SRCS = keyboard.h pireverb.h
+HEADER_SRCS = pireverb.h
 
 # リンク対象のライブラリファイル
 LIBS =\

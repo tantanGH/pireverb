@@ -1,5 +1,5 @@
-#ifndef __H_RAS68K__
-#define __H_RAS68K__
+#ifndef __H_PILIB__
+#define __H_PILIB__
 
 #include <stdint.h>
 #include <stddef.h>
@@ -8,7 +8,7 @@ int32_t ras68k_pilib_keepchk(void);
 int32_t ras68k_pilib_init_opm(void);
 int32_t ras68k_pilib_init_psg(void);
 int32_t ras68k_pilib_init_midi(void);
-int32_t ras68k_pilib_set_pcm_filter(int16_t filter_enabled);
+int32_t ras68k_pilib_set_filter_mode(int16_t filter_enabled);
 int32_t ras68k_pilib_set_reverb_type(int16_t reverb_type);
 int32_t ras68k_pilib_upload_pcm_data(void* buf, size_t buf_len);
 int32_t ras68k_pilib_send_register_data(uint8_t reg, uint8_t data);
