@@ -72,7 +72,7 @@ https://github.com/tantanGH/pireverb/assets/121137457/d70cd5e6-1959-46c9-a9d6-6d
 
 * X68000XVI (MC68000 16.7MHz, 8MB RAM, ArdSCSino-stm32)
 * Raspberry Pi 4B + ras68k-ext (2023新バージョン)
-* PIlib.X (20221130版)
+* PILIB.X (20221130版)
 * ras68k-ext ミドルウェア (20230512版)
 
 本プログラムに関して、ras68k-ext作者の opmregisters氏に問い合わせを行うことはご迷惑になりますのでおやめ下さい。
