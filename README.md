@@ -58,6 +58,12 @@ PIRVBxxx.ZIP をダウンロードして、PIREVERB.X をパスの通ったデ�
 
 また、OPT.2 + XF2 を同時に押すと、現在のリバーブタイプの表示のみ行います。(`-q`指定時を除く)
 
+
+
+https://github.com/tantanGH/pireverb/assets/121137457/d70cd5e6-1959-46c9-a9d6-6d1a870a99b0
+
+
+
 ---
 
 ## 動作確認環境
