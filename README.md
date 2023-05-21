@@ -96,7 +96,7 @@ ras68k-ext はその機能の豊富さ故、Raspberry Pi上でミドルウェア
 
 ## Special Thanks
 
-* ras68k-ext ハードウェア, PIlib.X および技術資料 / opmregistersさん
+* ras68k-ext ハードウェア, PILIB.X および技術資料 / opmregistersさん
 * xdev68k thanks to ファミべのよっしんさん
 * HAS060.X on run68mac thanks to YuNKさん / M.Kamadaさん / GOROmanさん
 * HLK301.X on run68mac thanks to SALTさん / GOROmanさん
