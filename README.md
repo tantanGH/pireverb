@@ -10,7 +10,7 @@ X680x0 のパラレルインターフェイスと Raspberry Pi + Pico を活用�
 
 - キーボードのホットキーでいつでも ras68k-ext のリバーブタイプを8種類から切り替え可能
 
-ras68k-ext の詳細については、開発者である opmregister氏のサイトを参照してください。
+ras68k-ext の詳細については、開発者である opmregisters氏のサイトを参照してください。
 
 技術資料
 * [http://opmregisters.web.fc2.com/ras68k/](http://opmregisters.web.fc2.com/ras68k/)
