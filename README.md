@@ -80,6 +80,14 @@ https://github.com/tantanGH/pireverb/assets/121137457/d70cd5e6-1959-46c9-a9d6-6d
 
 ---
 
+## ras68k-ext の PILIB.X ドライバと TwentyOne.X / FASTOPEN.X に関して(非公式)
+
+ras68k-ext 制御ドライバの PILIB.X は PCMデータを既にラズパイ側にアップロード済みかを0バイトのローカルファイルを作ることで管理しています。そのファイル名は 8 + 1 + 8 = 17文字あり、そのすべてが識別に使われます。このため、TwentyOne.X は必ず常駐しておく必要があります。`+T`オプション(21文字識別,デフォルト有効) は必須となります。それ以外の大文字小文字区別や、マルチピリオドを有効にする必要はありません。
+
+また、SHARP純正のファイルオープン高速化ドライバ FASTOPEN.X はTwentyOne.Xととても相性が悪く、これが導入されているとPILIB.Xのキャッシュファイル操作が期待通りに行われません。FASTOPEN.XはCONFIG.SYSから必ず外しておくようにしてください。
+
+---
+
 ## ras68k-ext の発熱低減設定に関して(非公式)
 
 ras68k-ext はその機能の豊富さ故、Raspberry Pi上でミドルウェアpcmd(pi68k-ext)を実行するとCPUパワーをかなり消費します。Raspberry Pi 4Bで動かした場合、ラズパイ本体が相当発熱します。
